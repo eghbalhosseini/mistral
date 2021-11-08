@@ -1,4 +1,4 @@
-name: mistral
+name: bplm_design_gpu
 channels:
 - pytorch
 - defaults
