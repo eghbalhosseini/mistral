@@ -14,13 +14,13 @@ inherit:
 run_id: null
 
 # Weights & Biases
-wandb:
-group:
+wandb: gpt2-micro
+group: bplm_design
 
 # Artifacts & Caching
 artifacts:
-    cache_dir:
-    run_dir:
+    cache_dir: /om/user/ehoseini/mistral_cache/artifacts
+    run_dir: /om/user/ehoseini/mistral_cache/runs
 
 # Save Effective Batch Size for Easy Handling ==> Main Code asserts infra + training_config results in this!
 effective_bsz: 16
