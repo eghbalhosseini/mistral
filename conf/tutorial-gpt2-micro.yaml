@@ -11,7 +11,7 @@ inherit:
     - trainers/gpt2-small.yaml
 
 # Run ID -- make sure to override!
-run_id: null
+run_id: 1
 
 # Weights & Biases
 wandb: gpt2-micro
