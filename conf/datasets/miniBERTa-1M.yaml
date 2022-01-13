@@ -1,0 +1,13 @@
+# wikitext103.yaml
+#   Configuration for miniBERTa dataset (https://huggingface.co/datasets/ehoseini/miniBERTa).
+---
+dataset:
+    id: ehoseini/miniBERTa
+    name: miniBERTa-1M
+    validation_ratio: 0.0005
+
+    # Number of Preprocessing Workers
+    num_proc: 4
+
+    # Number of Evaluation Preprocessing Workers
+    eval_num_proc: 4
