@@ -2,7 +2,7 @@
 #   Configuration for miniBERTa dataset (https://huggingface.co/datasets/ehoseini/miniBERTa).
 ---
 dataset:
-    id: ehoseini/miniBERTa
+    id: /om/user/ehoseini/miniBERTa
     name: miniBERTa-1M
     validation_ratio: 0.0005
 
