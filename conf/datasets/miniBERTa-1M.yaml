@@ -4,7 +4,7 @@
 dataset:
     id: /om/user/ehoseini/miniBERTa
     name: miniBERTa-1M
-    validation_ratio: 0.0005
+    validation_ratio: null
 
     # Number of Preprocessing Workers
     num_proc: 4
