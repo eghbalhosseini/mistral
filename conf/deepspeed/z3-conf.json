@@ -1,6 +1,6 @@
 {
   "optimizer": {
-    "type": "AdamW",
+    "type": "Adam",
     "params": {
       "lr": 0.0006,
       "betas": [
