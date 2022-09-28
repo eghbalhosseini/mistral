@@ -20,8 +20,8 @@ group: gpt2-small
 
 # Artifacts & Caching
 artifacts:
-    cache_dir: /om/user/ehoseini/mistral_cache/artifacts
-    run_dir: /om/user/ehoseini/mistral_cache/runs
+    cache_dir: /om2/user/ehoseini/mistral_cache/artifacts
+    run_dir: /om2/user/ehoseini/mistral_cache/runs
 
 # Save Effective Batch Size for Easy Handling ==> Main Code asserts infra + training_config results in this!
 effective_bsz: 512
